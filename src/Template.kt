@@ -62,4 +62,8 @@ class FastScanner : Closeable {
     fun nextDouble(): Double? {
         return next()?.toDouble()
     }
+    
+    fun nextLong(): Long? {
+        return next()?.toLong()
+    }
 }
